@@ -63,6 +63,6 @@ The API is documented [here]().
 Please report all issues related to this SDK to the [Jitsi Meet]() repository.
 
 [CocoaPods]: https://cocoapods.org
-[Jitsi Meet]: https://github.com/fcrizul/jitsi-meet
-[here]: https://github.com/fcrizul/jitsi-meet/blob/master/ios/README.md
+[Jitsi Meet]: https://github.com/jitsi/jitsi-meet
+[here]: https://github.com/jitsi/jitsi-meet/blob/master/ios/README.md
 
