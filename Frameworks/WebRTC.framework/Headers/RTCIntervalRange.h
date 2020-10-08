@@ -10,16 +10,16 @@
 
 #import <Foundation/Foundation.h>
 
-#import "RTCMacros.h"
-#import "RTCVideoDecoder.h"
+NS_ASSUME_NONNULL_BEGIN
 
-RTC_OBJC_EXPORT
-@interface RTCVideoDecoderVP8 : NSObject
+@interface RTCIntervalRange : NSObject
 
-/* This returns a VP8 decoder that can be returned from a RTCVideoDecoderFactory injected into
- * RTCPeerConnectionFactory. Even though it implements the RTCVideoDecoder protocol, it can not be
- * used independently from the RTCPeerConnectionFactory.
- */
-+ (id<RTCVideoDecoder>)vp8Decoder;
+@property(nonatomic, readonly) NSInteger min;
+@property(nonatomic, readonly) NSInteger max;
+
+- (instancetype)init;
+- (instancetype)initWithMin:(NSInteger)min max:(NSInteger)max NS_DESIGNATED_INITIALIZER;
 
 @end
+
+NS_ASSUME_NONNULL_END
