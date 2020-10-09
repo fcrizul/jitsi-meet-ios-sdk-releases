@@ -302,9 +302,9 @@
         "transcribing": "Transcribiendo",
         "unlockRoom": "Eliminar reunión $t(lockRoomPassword)",
         "userPassword": "contraseña del usuario",
-        "WaitForHostMsg": "Aguarde a que el Dr. ingrese a la videoconsulta",
-        "WaitForHostMsgWOk": "Aguarde a que el Dr. ingrese a la videoconsulta",
-        "WaitingForHost": "Bienvenido.",
+        "WaitForHostMsg": "La conferencia <b> {{room}} </b> aún no ha comenzado. Si usted es el anfitrión, por favor autentíquese. De lo contrario, espere a que llegue el anfitrión.",
+        "WaitForHostMsgWOk": "La conferencia <b> {{room}} </b> aún no ha comenzado. Si usted es el anfitrión, presione Ok para autenticar. De lo contrario, espere a que llegue el anfitrión.",
+        "WaitingForHost": "Esperando al anfitrión …",
         "Yes": "Sí",
         "yourEntireScreen": "Su pantalla completa",
         "muteEveryoneDialog": "Silenciar a todos"
